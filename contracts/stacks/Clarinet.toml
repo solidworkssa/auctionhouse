@@ -1,0 +1,12 @@
+[project]
+name = "auctionhouse"
+description = "Simple auction contract with bidding"
+authors = ["solidworkssa"]
+telemetry = false
+cache_dir = ".cache"
+
+[contracts.auctionhouse]
+path = "contracts/auctionhouse.clar"
+
+[repl.analysis]
+passes = ["check_checker"]
