@@ -2,8 +2,11 @@
 pragma solidity ^0.8.20;
 
 /// @title AuctionHouse Contract
+/// @author solidworkssa
 /// @notice Simple auction contract with bidding.
 contract AuctionHouse {
+    string public constant VERSION = "1.0.0";
+
 
     uint256 public highestBid;
     address public highestBidder;
