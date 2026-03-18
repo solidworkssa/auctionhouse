@@ -30,5 +30,9 @@
   "bugs": {
     "url": "https://github.com/solidworkssa/auctionhouse/issues"
   },
-  "homepage": "https://github.com/solidworkssa/auctionhouse#readme"
+  "homepage": "https://github.com/solidworkssa/auctionhouse#readme",
+  "dependencies": {
+    "@winsznx/sdk": "0.1.0",
+    "@winsznx/react": "0.1.0"
+  }
 }
